@@ -1,0 +1,66 @@
+header {
+    background-color: rgb(229, 229, 229); 
+  }
+  
+  .valid {
+  color:green;
+  }
+  
+  .invalid {
+  color:red;
+  
+  }
+  
+  .btn-rojo {
+  color: red; 
+  }
+  
+  .btn-rojo:hover {
+  background-color: #ff0015;  
+  color: rgb(255, 255, 255); 
+  }
+  
+  .custom-tooltip {
+    --bs-tooltip-bg: #898989;
+    --bs-tooltip-color: var(--bs-white);
+  }
+  
+  .mi-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s;
+  }
+  
+  .mi-input:focus {
+  border-color: blue;
+  background-color: #f0f8ff;
+  color: #333;
+  }
+  
+  p {
+  font-family: "Times New Roman", sans-serif;
+  }
+  
+  
+  .texto-pequeno {
+  font-size: 11px;  
+  }
+  
+  
+  .custom-footer {
+    background-color: #c21807;
+  }
+  
+  .custom-footer {
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .footer-text {
+    text-align: right;
+    /*margin-right: 20px;*/ /* No lo logré aquí*/
+  }
+  
