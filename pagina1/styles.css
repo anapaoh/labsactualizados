@@ -1,0 +1,58 @@
+/*css minimizado: */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);body{margin:10 auto;max-width:50em;font-family:Helvetica,Arial,sans-serif;line-height:1.5;padding:4em 1em;color:#000}h2{margin-top:1em;padding-top:1em;color:#00008b}h1,h3{color:#e24ac9;border-bottom:3px solid #b4153f}strong.resaltado{background-color:#fbff00;color:#000}strong{color:#e20a6b}a{color:#e51ce8}a:hover{color:#1e90ff}footer{background:#121111;color:#fff;text-align:center;padding:10px 0;bottom:0;width:100%;margin:0;position:relative}
+
+
+/* css sin minimizar:
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    margin: 10 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif; 
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #000000;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1, h3 {
+    color: rgb(226, 74, 201);
+    border-bottom: 3px solid rgb(180, 21, 63);
+}
+
+h2 {
+    color:darkblue;
+}
+strong.resaltado {
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+  }
+  
+strong {
+    color:rgb(226, 10, 107)
+}
+
+a  {
+    color: #e51ce8;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+footer {
+    background: #121111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    position: relative; 
+ } 
+ */
