@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {background-color: rgb(246, 242, 243);}
     </style>
@@ -110,8 +110,83 @@
             <p>Que usen el <strong class ="resaltado">%</strong> cuando ese elemento dependa más el tamaño de otro elemento, <strong class="resaltado">px</strong> cuando tengan seguro el tamaño que quieren para el elemento independientemente de cualquier otro factor y <strong class="resaltado">pt</strong> para cuando se quiere imprimir, porque este se basa en centímetros y px en píxeles</p>
             <strong>¿Por qué el uso de una versión minimizada del CSS mejora el rendimiento del sitio?</strong>
             <p>A grande escala, porque hace todo más fácil. El archivo es mas pequeño, los tiempos son menores, el servidor usa menos recursos y entenderlo es más sencillo.</p>
-           <footer> &copy; 2025 - Hice el trabajo en VS code 
+            <h2>Ejercicios de JavaScript</h2>
+    
+    <div class="seccion">
+        <h3>Ejercicio 1: Tabla de números, cuadrados y cubos</h3>
+        <p>Entrada: un número pedido con un prompt.</p>
+        <p>Salida: Una tabla con los números del 1 al número dado con sus cuadrados y cubos.</p>
+        <button onclick="ejercicio1()">Generar tabla</button>
+    </div>
+    
+    <div class="seccion">
+        <h3>Ejercicio 2: Suma de números aleatorios</h3>
+        <p>Entrada: Usando un prompt se pide el resultado de la suma de 2 números generados de manera aleatoria.</p>
+        <p>Salida: La página debe indicar si el resultado fue correcto o incorrecto, y el tiempo que tardó el usuario en escribir la respuesta.</p>
+        <button onclick="ejercicio2()">Iniciar suma</button>
+        <div id="resultadoEj2"></div>
+    </div>
+    
+    <div class="seccion">
+        <h3>Ejercicio 3: Contador</h3>
+        <p>Función: contador.</p>
+        <p>Parámetros: Un arreglo de números.</p>
+        <p>Regresa: La cantidad de números negativos en el arreglo, la cantidad de 0's, y la cantidad de valores mayores a 0 en el arreglo.</p>
+        <button onclick="probarContador()">Probar función</button>
+        <div id="resultadoEj3"></div>
+    </div>
+    
+    <div class="seccion">
+        <h3>Ejercicio 4: Promedios</h3>
+        <p>Función: promedios.</p>
+        <p>Parámetros: Un arreglo de arreglos de números.</p>
+        <p>Regresa: Un arreglo con los promedios de cada uno de los renglones de la matriz.</p>
+        <button onclick="probarPromedios()">Probar función</button>
+        <div id="resultadoEj4"></div>
+    </div>
+    
+    <div class="seccion">
+        <h2>Ejercicio 5: Inverso</h2>
+        <p>Función: inverso.</p>
+        <p>Parámetros: Un número.</p>
+        <p>Regresa: El número con sus dígitos en orden inverso.</p>
+        <button onclick="probarInverso()">Probar función</button>
+        <div id="resultadoEj5"></div>
+    </div>
+    
+    <div class="seccion">
+        <h3>Ejercicio 6: Galería de Arte Virtual</h3>
+        <div class="problema-descripcion">
+            <h3>Descripción del Problema:</h3>
+            <p>En el mundo del arte digital, existe la necesidad de crear plataformas que permitan a artistas, curadores y amantes del arte explorar y compartir diversas obras de manera virtual.</p>
+            
+            <p>El desafío es desarrollar una aplicación de "Galería de Arte Virtual" que permita:</p>
+            <ul>
+                <li>Almacenar información detallada sobre las obras de arte (título, artista, año, técnica, descripción)</li>
+                <li>Gestionar una colección de obras en una galería</li>
+                <li>Buscar obras por diferentes criterios (artista, período de tiempo)</li>
+                <li>Permitir al usuario agregar nuevas obras a la colección</li>
+                <li>Mostrar la información de manera organizada y accesible</li>
+            </ul>
+            
+            <p>Requisitos técnicos:</p>
+            <ul>
+                <li>Implementar al menos dos objetos (ObraArte y GaleriaVirtual)</li>
+                <li>Cada objeto debe tener su constructor y al menos dos métodos</li>
+                <li>Permitir interacción del usuario para agregar y buscar obras</li>
+                <li>Mostrar los resultados en el documento HTML</li>
+            </ul>
+            
+            <p>Esta aplicación busca crear un puente entre la tecnología y el arte, permitiendo la preservación y difusión digital de obras artísticas.</p>
+        </div>
+        <button onclick="iniciarGaleria()">Iniciar Galería de Arte Virtual</button>
+        <div id="resultadoEj6"></div>
+    </div>
+           
+            <footer> &copy; 2025 - Hice el trabajo en VS code 
                 link: ... </footer>
+
+            <script src="scripts.js"></script>
     </body>
 
 </html>
