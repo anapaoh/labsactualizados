@@ -1,6 +1,12 @@
 header {
     background-color: rgb(229, 229, 229); 
   }
+
+.titulo {
+  font-family:'Dancing Script', cursive;
+  display: flex;
+  justify-content: center;  
+}
   
   .valid {
   color:green;
@@ -51,9 +57,6 @@ header {
   
   .custom-footer {
     background-color: #c21807;
-  }
-  
-  .custom-footer {
     width: 100%;
     text-align: right;
     padding-right: 20px;
@@ -64,3 +67,6 @@ header {
     /*margin-right: 20px;*/ /* No lo logré aquí*/
   }
   
+body {
+  padding-bottom: 70px;
+}
