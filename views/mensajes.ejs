@@ -1,0 +1,31 @@
+<%- include('includes/head.ejs') %>
+<body>
+    <%- include('includes/nav.ejs') %>
+
+    <div class="container mt-4">
+        <h1>Mensajes Recibidos</h1>
+        
+        <% if (mensajes && mensajes.length > 0) { %>
+            <div class="row">
+                <% for (let mensaje of mensajes) { %>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <%= mensaje.nombre %> - <%= mensaje.fecha %>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><%= mensaje.correo %></h5>
+                                <p class="card-text"><%= mensaje.mensaje %></p>
+                            </div>
+                        </div>
+                    </div>
+                <% } %>
+            </div>
+        <% } else { %>
+            <div class="alert alert-info">
+                No hay mensajes recibidos aún.
+            </div>
+        <% } %>
+    </div>
+
+    <%- include('includes/footer.ejs') %>
