@@ -1,4 +1,4 @@
-const readline = require('readline');
+/*const readline = require('readline');
 const fs = require('fs');
 const http = require('http');
 const path = require('path');
@@ -52,4 +52,47 @@ server.listen(3000, () => {
     console.log("Servidor corriendo en http://localhost:3000");
 });
 
+obtenerNumeros();
+*/
+
+const readline = require('readline');
+const fs = require('fs');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+function promedio(numeros) {
+    let suma = 0;
+    for (let i = 0; i < numeros.length; i++) {
+        suma += numeros[i];
+    }
+    return numeros.length > 0 ? suma / numeros.length : 0;
+}
+
+function guardarTexto(nombre, contenido) {
+    fs.writeFileSync(nombre, contenido, 'utf8');
+    console.log(`Se guardó el texto en el archivo: ${nombre}`);
+}
+
+function obtenerNumeros() {
+    rl.question('Ingresa los números separados por coma (por ejemplo: 1, 2, 3): ', (input) => {
+        const numeros = input.split(',').map(num => parseFloat(num.trim()));
+        const resultadoPromedio = promedio(numeros);
+
+        if (numeros.some(isNaN)) {
+            console.log('Error: uno o más valores no son números válidos.');
+        } else {
+            console.log(`El promedio de los números es: ${resultadoPromedio}`);
+        }
+
+        rl.question('Ingresa un texto para guardar en un archivo: ', (texto) => {
+            guardarTexto('mensaje.txt', texto);
+            rl.close();
+        });
+    });
+}
+
+// Inicia la ejecución en la terminal
 obtenerNumeros();

@@ -1,3 +1,5 @@
+/*
+
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -21,3 +23,5 @@ router.post('/enviar-formulario', formularioController.procesarFormulario);
 router.get('/mensajes', formularioController.mostrarMensajes);
 
 module.exports = router;
+
+*/
