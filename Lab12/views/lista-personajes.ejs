@@ -1,0 +1,24 @@
+<%- include('includes/head.ejs') %>
+
+<h2><%= titulo %></h2>
+
+<% if (personajes.length > 0) { %>
+  <ul class="list-group mb-4">
+    <% personajes.forEach(p => { %>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span><strong><%= p.nombre %></strong> – <%= p.habilidad %></span>
+        <% if (p.hada) { %>
+          <span class="badge bg-success">Hada</span>
+        <% } %>
+      </li>
+    <% }) %>
+  </ul>
+<% } else { %>
+  <p class="text-muted text-center">Aún no hay personajes registrados.</p>
+<% } %>
+
+<div class="text-center">
+  <a class="btn btn-outline-primary" href="/admin/agregar">Agregar nuevo personaje</a>
+</div>
+
+<%- include('includes/footer.ejs') %>
