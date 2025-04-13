@@ -1,0 +1,8 @@
+<h1>Bienvenida</h1>
+<% if (typeof user !== 'undefined') { %>
+  <p>Hola <%= user.username %></p>
+  <a href="/users/logout">Cerrar sesión</a>
+<% } else { %>
+  <a href="/users/login">Iniciar sesión</a>
+  <a href="/users/signup">Registrarte</a>
+<% } %>
