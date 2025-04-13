@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Bienvenidx</h1>
+
+  <section class="contenedor">
+    <% if (mensaje.length > 0) { %>
+      <p><%= mensaje[0] %></p>
+    <% } %>
+
+    <% if (usuario) { %>
+      <p>Este es el lab 14, <%= usuario %></p>
+      <a href="/logout">Cerrar sesión</a>
+    <% } else { %>
+      <p>No has iniciado sesión aún.</p>
+      <a href="/login">Iniciar sesión</a>
+    <% } %>
+  </section>
+</body>
+</html>

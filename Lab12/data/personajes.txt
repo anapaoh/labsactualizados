@@ -1,2 +1,4 @@
 Nombre: hada de huasca, Habilidad: cambiar el clima, ¿Es hada?: false
 Nombre: Bellota, Habilidad: Hablar con los animales, ¿Es hada?: true
+Nombre: hada de huasca, Habilidad: controlar el agua, ¿Es hada?: true
+Nombre: personaje 3, Habilidad: Feliz, ¿Es hada?: true
