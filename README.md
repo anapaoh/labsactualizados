@@ -16,3 +16,5 @@ commit del lab 20: https://github.com/liliird/not_a_repo/blob/7c1f08d767dc0d96c4
 commit del lab 21: https://github.com/liliird/not_a_repo/blob/7c1f08d767dc0d96c4b4f6ee6ad454637245efc8/Lab21.pdf
 
 commit del lab 22: https://github.com/liliird/not_a_repo/tree/6644575e1e47f5fcc4a04383f783df83f0358875/Lab22
+
+commit del lab 19: https://github.com/liliird/not_a_repo/commit/546ddceccb67341c49be130e2066348c7dc66b4f
