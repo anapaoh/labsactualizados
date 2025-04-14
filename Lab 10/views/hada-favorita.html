@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tu hada favorita</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Escribe un poco sobre tu hada favorita</h1>
+  <form action="/hada-favorita" method="POST">
+    <label>Tu nombre:</label><br>
+    <input type="text" name="nombre" required><br><br>
+
+    <label>Nombre del hada:</label><br>
+    <input type="text" name="hada" required><br><br>
+
+    <label>¿Por qué te gusta esta hada?</label><br>
+    <textarea name="motivo" rows="4" cols="40" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <a href="/">Volver al Valle</a>
+</body>
+</html>
