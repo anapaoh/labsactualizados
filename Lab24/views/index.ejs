@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <%- include('partials/head') %>
+  </head>
+  <body>
+    <div class="fondo-verde px-4 py-5">
+      <div class="container">
+        <h1 class="titulo-verdesabio text-center">Página VerdeSabio</h1>
+        <p class="subtitulo-verdesabio text-center">Para descubrir consejos sobre cómo cuidar plantitas</p>
+
+        <form id="form-consejo" class="mb-4">
+          <div class="input-group input-group-lg">
+            <input type="text" id="consejoVerde" class="form-control input-verdesabio" placeholder="Escribe tu consejo verde" required />
+            <button class="btn btn-success" type="submit">Agregar</button>
+          </div>
+        </form>
+
+        <ul id="lista-consejos" class="list-group">
+          <!-- AJAX llenará esta sección -->
+        </ul>
+
+        <p class="mt-5 text-end">
+          <small class="text-muted">Este sitio usa AJAX para agregar y mostrar consejos verdes sin recargar la página.</small>
+        </p>
+      </div>
+    </div>
+
+    <%- include('partials/footer') %>
+  </body>
+</html>

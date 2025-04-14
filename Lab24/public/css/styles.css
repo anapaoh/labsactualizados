@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: linear-gradient(to bottom right, #7fd40f, #498228);
+  }
+  
+  .titulo-verdesabio {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .subtitulo-verdesabio {
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+  
+  .input-verdesabio {
+    font-size: 1.1rem;
+    padding: 0.75rem;
+    border-radius: 0;
+  }
+  
+  .list-group-item {
+    background-color: #ffffff;
+    border: none;
+    border-left: 4px solid #38b000;
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
